@@ -12,20 +12,19 @@
 MArvIN is an Open Source Inventory, Supply Chain and Traceability System. It is designed to comply with EN 9100 and implemented at Planetary Transportation Systems GmbH.
 
 ## Contributors
-MArvIN can only exist thanks to the support of PTS and the Budibase comunity.
+MArvIN can only exist thanks to the support of PTS and the Budibase community.
 
 ## License
 Copyright (c) 2022 Planetary Transportation Systems GmbH. All rights reserved. The software is distributed under GPL 3 License attached in this repository
 
 ## Features
-MARVIN is a Planetary Transportation Systems GmbH internally developed tool to trace PCB Design, Production and Testing for space applications.
+MARVIN is a Planetary Transportation Systems GmbH internally developed, web-based tool to trace PCB Design, Production and Testing for space applications.
 
 Key Features
 * Traceability of Production Processes
 * Component Batch identification and testing
 * Assembly traceability
 
-* Proven by EN 9100 audit
 * Based on ECSS and EN 9001/9100 requirements
 * Full forward and backward traceability
 * Extended Customisability for flexible usage patterns
@@ -40,12 +39,12 @@ Based on the low code platform Budibase and postgreSQL, MArvIN is both, easy to 
 Marvin was tested and developed using Ubuntu 20.04. Other operating systems will most probably work.
 
 ### Minimum dependencies
-* [postgreSQL (https://www.postgresql.org/download/linux/ubuntu/)]
-* [Docker (https://www.docker.com)] 
-* [Budibase (https://docs.budibase.com/docs/budibase-cli-setup)]
+* [postgreSQL](https://www.postgresql.org/download/linux/ubuntu/)
+* [Docker](https://www.docker.com)] 
+* [Budibase](https://docs.budibase.com/docs/budibase-cli-setup)
 
 ### Recommended
-* [phpPgAdmin (https://github.com/phppgadmin/phppgadmin/releases)]
+* [phpPgAdmin](https://github.com/phppgadmin/phppgadmin/releases)
 
 ### Setup 
 
@@ -54,7 +53,7 @@ Start posgreSQL
 ```
 sudo systemctl start postgresql.service
 ```
-[Import (https://www.postgresql.org/docs/8.1/backup.html#BACKUP-DUMP-RESTORE)] Database structure 
+[Import](https://www.postgresql.org/docs/8.1/backup.html#BACKUP-DUMP-RESTORE) Database structure 
 ```
 psql marvin < marvin_db_(version).sql
 ```
@@ -67,7 +66,7 @@ budi hosting --init
 budi hosting --start
 ```
 
-After some time budibase will be available via HTTP at the configured port number. (default: [http://127.0.0.1:10000])
+After some time Budibase will be available via HTTP at the configured port number. (default: [http://127.0.0.1:10000])
 
 ##### Install Frontend 
 Import the frontend file using the import tool.
