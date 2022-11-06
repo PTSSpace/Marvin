@@ -67,9 +67,5 @@ After some time Budibase will be available via HTTP at the configured port numbe
 
 ##### Install Frontend 
 Import the frontend file using the import tool.
-
-## Troubleshooting
-
-
-### Debugging 
+Screnshot here
 
