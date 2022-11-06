@@ -4,12 +4,12 @@
   </a>
 </p>
 <h1 align="center">
-  MArvIN
+  Marvin
 </h1>
 
 
 ## About 
-MArvIN is an Open Source Inventory, Supply Chain and Traceability System. It is designed to comply with EN 9100 and implemented at Planetary Transportation Systems GmbH.
+MARVIN is an Open Source Inventory, Supply Chain and Traceability System. It is designed to comply with EN 9100 and implemented at Planetary Transportation Systems GmbH.
 
 ## Contributors
 MArvIN can only exist thanks to the support of PTS and the Budibase community.
@@ -40,13 +40,14 @@ Marvin was tested and developed using Ubuntu 20.04. Other operating systems will
 
 ### Minimum dependencies
 * [postgreSQL](https://www.postgresql.org/download/linux/ubuntu/)
-* [Docker](https://www.docker.com)] 
+* [Docker](https://www.docker.com)
 * [Budibase](https://docs.budibase.com/docs/budibase-cli-setup)
 
 ### Recommended
 * [phpPgAdmin](https://github.com/phppgadmin/phppgadmin/releases)
 
-### Setup 
+### Setup
+
 
 #### Database
 Start posgreSQL
@@ -66,15 +67,13 @@ budi hosting --init
 budi hosting --start
 ```
 
-After some time Budibase will be available via HTTP at the configured port number. (default: [http://127.0.0.1:10000])
+After some time Budibase will be available via HTTP at the configured port number. (default: http://127.0.0.1:10000)
 
 ##### Install Frontend 
 Import the frontend file using the import tool.
 
-#### Itegration
-
-
 ## Troubleshooting
+
 
 ### Debugging 
 
