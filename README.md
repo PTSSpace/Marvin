@@ -67,7 +67,7 @@ After some time Budibase will be available via HTTP at the configured port numbe
 
 ##### Install Frontend 
 Import the frontend file using the import tool.
-![add_app_from_file](pictures/screenshots/create_app.png | width=100)
+<img src="pictures/screenshots/create_app.png" alt="drawing" width="200"/>
 
 ## Understanding Marvin
 
