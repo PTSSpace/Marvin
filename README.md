@@ -32,12 +32,12 @@ Marvin delivers an integrated system for highly detailed Identification and Trac
 Based on the low code platform Budibase and postgreSQL, MArvIN is both, easy to adapt and fast to integrate. 
 
 ## Setup and Installation
-Marvin was tested and developed using Ubuntu 20.04. Other operating systems will most probably work.
+Marvin was tested and developed using Ubuntu 20.04 LTS. Other operating systems supporting Docker and PostgreSQL Server will most probably work.
 
 ### Minimum dependencies
-* [postgreSQL](https://www.postgresql.org/download/linux/ubuntu/)
-* [Docker](https://www.docker.com)
-* [Budibase](https://docs.budibase.com/docs/budibase-cli-setup)
+* [postgreSQL server](https://www.postgresql.org/download/linux/ubuntu/)
+* [Budibase](https://docs.budibase.com/docs/budibase-cli-setup) (version: 1.0.206)
+
 
 ### Recommended
 * [phpPgAdmin](https://github.com/phppgadmin/phppgadmin/releases)
@@ -70,11 +70,12 @@ Import the frontend file using the import tool.
 <br/>
 <img src="pictures/screenshots/create_app.png" alt="drawing" width="200"/>
 <br/>
+
 ## Understanding Marvin
 
 The data in Marvin is stored within a PostgreSQL Database. The simplified data diagram below shows a course overview of its structure. The tables Parts and Designs contain "abstract" entities of which "real world" manifestations exist in "Components" & "Products. The items in "Components" & "Products" can be N:N related, meaning multiple components can be added to multiple products. Furthermore for many entities in the database tests & events can be saved which happened to a specific entity (e.g. batch testing, incoming inspections, etc).
 
-<img src="doc/simplified_db_schema.jpg" alt="drawing" width="400"/>
+<img src="doc/simplified_db_schema.jpg" alt="drawing" width="700"/>
 
 
 ### Part Specifications
