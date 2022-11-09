@@ -67,8 +67,9 @@ After some time Budibase will be available via HTTP at the configured port numbe
 
 ##### Install Frontend 
 Import the frontend file using the import tool.
+<br/>
 <img src="pictures/screenshots/create_app.png" alt="drawing" width="200"/>
-
+<br/>
 ## Understanding Marvin
 
 The data in Marvin is stored within a PostgreSQL Database. The simplified data diagram below shows a course overview of its structure. The tables Parts and Designs contain "abstract" entities of which "real world" manifestations exist in "Components" & "Products. The items in "Components" & "Products" can be N:N related, meaning multiple components can be added to multiple products. Furthermore for many entities in the database tests & events can be saved which happened to a specific entity (e.g. batch testing, incoming inspections, etc).
