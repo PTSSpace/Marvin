@@ -74,7 +74,8 @@ Import the frontend file using the import tool.
 
 The data in Marvin is stored within a PostgreSQL Database. The simplified data diagram below shows a course overview of its structure. The tables Parts and Designs contain "abstract" entities of which "real world" manifestations exist in "Components" & "Products. The items in "Components" & "Products" can be N:N related, meaning multiple components can be added to multiple products. Furthermore for many entities in the database tests & events can be saved which happened to a specific entity (e.g. batch testing, incoming inspections, etc).
 
-![database_schema_simple](doc/simplified_db_schema.jpg)
+<img src="doc/simplified_db_schema.jpg" alt="drawing" width="400"/>
+
 
 ### Part Specifications
 In the "parts" section you can filter and scroll through all parts in the DB. To create a new part press "Create New". It is recommended to create a part before you create component iterations from it (eg. "part":Battery with part number 123, "component": manifest of battery 123 with serial number 987 and 200 load cycles"
