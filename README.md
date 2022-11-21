@@ -5,16 +5,16 @@
 
 
 ## About 
-MARVIN is an Open Source Inventory, Supply Chain and Traceability System. It is designed to comply with EN 9100 and implemented at Planetary Transportation Systems GmbH.
+Marvin is an Open Source Inventory, Supply Chain and Traceability System. It is designed to comply with EN 9100 and implemented at Planetary Transportation Systems GmbH.
 
 ## Contributors
-MArvIN can only exist thanks to the support of PTS and the Budibase community.
+Marvin can only exist thanks to the support of PTS and the Budibase community.
 
 ## License
 Copyright (c) 2022 [Planetary Transportation Systems GmbH](https://www.pts.space). All rights reserved. The software is distributed under GPL 3 License attached in this repository
 
 ## Features
-MARVIN is a Planetary Transportation Systems GmbH internally developed, web-based tool to trace PCB Design, Production and Testing for space applications.
+Marvin is a Planetary Transportation Systems GmbH internally developed, web-based tool to trace PCB Design, Production and Testing for space applications.
 
 Key Features
 * Traceability of Production Processes
@@ -29,14 +29,14 @@ Key Features
 Marvin delivers an integrated system for highly detailed Identification and Traceability reports with user friendly data entry for compliance with regulators. It provides Tracking of your raw materials through the production chain from suppliers, locations, transport, tests and product assembly. 
 
 ### Adaptable
-Based on the low code platform Budibase and postgreSQL, MArvIN is both, easy to adapt and fast to integrate. 
+Based on the low code platform Budibase and postgreSQL, Marvin is both, easy to adapt and fast to integrate. 
 
 ## Setup and Installation
 Marvin was tested and developed using Ubuntu 20.04 LTS. Other operating systems supporting Docker and PostgreSQL Server will most probably work.
 
 ### Minimum dependencies
 * [postgreSQL server](https://www.postgresql.org/download/linux/ubuntu/)
-* [Budibase](https://docs.budibase.com/docs/budibase-cli-setup) (version: 1.0.206)
+* [Budibase](https://docs.budibase.com/docs/budibase-cli-setup#manual-install-of-budibase-cli) (Manual install & version 1.0.206 recommended)
 
 
 ### Recommended
@@ -50,7 +50,7 @@ Start posgreSQL
 ```
 sudo systemctl start postgresql.service
 ```
-[Import](https://www.postgresql.org/docs/8.1/backup.html#BACKUP-DUMP-RESTORE) Database structure 
+[Import](https://www.postgresql.org/docs/8.1/backup.html#BACKUP-DUMP-RESTORE) Database structure (see src/db folder)
 ```
 psql marvin < marvin_db_(version).sql
 ```
@@ -70,6 +70,8 @@ Import the frontend file using the import tool.
 <br/>
 <img src="pictures/screenshots/create_app.png" alt="drawing" width="200"/>
 <br/>
+
+Within the new app adapt the postgeSQL settings according to your settings.
 
 ## Understanding Marvin
 
