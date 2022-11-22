@@ -71,7 +71,7 @@ Import the frontend file using the import tool.
 <img src="pictures/screenshots/create_app.png" alt="drawing" width="200"/>
 <br/>
 
-Within the new app adapt the postgeSQL settings according to your settings.
+Within the new app adapt the postgeSQL settings according to your settings. (follow the [Budibase Docs](https://docs.budibase.com/docs/postgresql-1) for further info)
 
 ## Understanding Marvin
 
