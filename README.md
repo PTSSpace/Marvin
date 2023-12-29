@@ -8,7 +8,7 @@
 Marvin is an Open Source Inventory, Supply Chain and Traceability System. It is designed to comply with EN 9100 and implemented at Planetary Transportation Systems GmbH.
 
 ## Contributors
-Marvin can only exist thanks to the support of PTS and the Budibase community.
+Marvin can only exist thanks to the support of PTS and the Budibase community. Main developer and POC is @pkoetter.
 
 ## License
 Copyright (c) 2022 [Planetary Transportation Systems GmbH](https://www.pts.space). All rights reserved. The software is distributed under the BSD-4-Clause License attached in this repository
